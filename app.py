@@ -20,15 +20,16 @@ def generate_bubble_chart():
         log_x = True, 
         size_max=45, 
         range_x=[100,100000], 
-        range_y=[25,90]
+        range_y=[15,90]
     )
 
 app.layout = html.Div([
-    dcc.Graph(
-        id='scatter',
-        figure=generate_bubble_chart()
-    )
-])
+        html.H1("Gapminder Bubble Chart: GDP/Income vs Life Expectancy"),
+        dcc.Graph(
+            id='scatter',
+            figure=generate_bubble_chart()
+        )
+    ])
 
 if __name__ == '__main__':
     app.run_server(debug=True)
