@@ -10,3 +10,12 @@ Income vs Life Expectancy by Country from 1952 to 2007
 - python3 app.py 
 - On Google Chrome, navigate to http://127.0.0.1:8050/ or whatever port specified in your terminal
 
+### Features: 
+- Deselect/select specific countries by either clicking on their respective bubbles or on the list on the right.
+- Use the Play button on the bottom to walk through each year and update the chart with the data for that year 
+
+
+## Testing
+- pip3 install dash[testing]
+- install web drivers for Google Chrome (see https://dash.plot.ly/testing)
+- pytest tests.py
