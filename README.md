@@ -1,6 +1,8 @@
 # dash-plotly-gapminder-bubble chart
 Income vs Life Expectancy by Country from 1952 to 2007
 
+![Project Screenshot]('screenshot.png')
+
 ## To get started:
 ```
 pip3 install plotly_express
