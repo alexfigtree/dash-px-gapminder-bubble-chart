@@ -1,7 +1,7 @@
 # dash-plotly-gapminder-bubble chart
 Income vs Life Expectancy by Country from 1952 to 2007
 
-![Project Screenshot](https://raw.githubusercontent.com/alexfigtree/dash-px-gapminder-bubble-chart/blob/master/screenshot.png)
+![Project Screenshot](https://raw.githubusercontent.com/alexfigtree/dash-px-gapminder-bubble-chart/master/screenshot.png)
 
 ## To get started:
 ```
